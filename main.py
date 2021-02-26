@@ -1,16 +1,89 @@
-# This is a sample Python script.
+#zad 1
+n1='napis'
+n2='napis2'
+print(n1)
+print(n2)
+calkowita = 7
+rzeczywista = 7.5
+print(calkowita)
+print(rzeczywista)
+#zad 2
+from math import *
+a=2
+b=3
+dodawanie= a+b
+odejmowanie= a-b
+dzielenie=b/a
+dzielenie_calkowite= b//a
+mnozenie= a*b
+potegowanie= a**3
+resztazdzielenia= 4%3
+print(sqrt(b))
+print(dodawanie)
+print(odejmowanie)
+print(dzielenie)
+print(dzielenie_calkowite)
+print(mnozenie)
+print(potegowanie)
+print(resztazdzielenia)
+#zad=3
+a+=2
+print(a)
+a-=2
+print(a)
+a/=2
+print(a)
+a*=2
+print(a)
+a**=2
+print(a)
+a%=2
+print(a)
+a-=2
+print(a)
+a/=2
+print(a)
+a*=8
+print(a)
+a**=2
+print(a)
+a%=5
+print(a)
+#zadanie 4
+e= exp(1)
+e**=10
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+x=(log(5 + sin(8)**2))
+f=pow(x,1/6)
+print(f)
+x=math.floor(3.55)
+print (x)
+y=math.ceil(4.80)
+#5 zadanie
+imie='ADAM'
+nazwisko='KALISTA'
+capitalize(imie)
+capitalize(nazwisko)
+print(imie)
+print(nazwisko)
+#6
+melodia='du du du du'
+ilosc=melodia.count('du')
+#7
+imie='Adam'
+drugalitera=imie[1]
+ostatnialitera=imie[len(imie)-1]
+print(drugalitera)
+print(ostatnialitera)
+#8
+x = melodia.split()
+print(x)
+#9
+cali='kali'
+liczba=21.21
+szesnastkowy=895
+float(liczba)
+hex(szesnastkowy)
+print(cali)
+print(liczba)
+print(szesnastkowy)
